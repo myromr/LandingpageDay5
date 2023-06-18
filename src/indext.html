@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/output.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Landing Page</title>
+</head>
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6 max-w-6xl" >
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="">
+          <a href="#" class="text-xl font-semibold text-river-900">Romar<span class="text-green-400">Marcos</span></a>
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden space-x-6 md:flex">
+          <a href="#" class="text-blue-dianne-900 hover:underline underline-offset-4">Home</a>
+          <a href="#" class="text-river-900 hover:underline underline-offset-4">Services</a>
+          <a href="#" class="text-river-900 hover:underline underline-offset-4">How we work?</a>
+          <a href="#" class="text-river-900 hover:underline underline-offset-4">About Us</a>
+        </div>
+        <!-- Button -->
+        <button class="hidden p-2 px-6 pt-2 text-xs text-slate-100 bg-river-800 rounded-full baseline hover:bg-river-300 md:block">Contact Us</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- flex container -->
+      <div class="container max-w-6xl flex flex-col  items-center px-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
+        <!-- left item -->
+        <div class="flex flex-col space-y-4 md:w-1/2">
+          <h1 class="max-w-md text-4xl text-river-900 font-semibold text-center md:text-5xl md:text-left">
+            Quick and Easy Loans for Your Financial Needs.
+          </h1>
+          <p class="max-w-sm text-center md:text-left">Our loan services offer a hassle-free and streamlined borrowing experience, providing you with the funds you need in a timely manner to meet your financial requirements.</p>
+          <div class="flex justify-center md:justify-start">
+            <button class="text-river-900 p-2 px-6 pt-2 text-xs rounded-full items-baseline border border-river-900 hover:bg-river-300">Get Started</button>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img src="/src/assets/images/hero-image.png" alt="hero">
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-river-50">
+      <!-- Container to the heading and service cards-->
+      <div class="max-w-6xl px-5 mx-auto pt-6 mt-32 text-center ">
+        <!-- Heading -->
+        <h2 class="text-3xl font-semibold text-center">
+          Our Services
+        </h2>
+        <!-- Services cards -->
+        <div class="flex flex-col mt-10 md:flex-row md:space-x-6">
+          <!-- Service 1 -->
+          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg border border-gray-300 mt-3 md:w-1/3">
+            <img src="/src/assets/icon1.svg" alt="personal loan">
+            <h3 class="text-3xl text-center">
+              Personal loan
+            </h3>
+            <p class="text-center text-gray-500">
+              Personal loans provide borrowers with flexibility in how they use the funds.
+            </p>
+            <button class="text-river-900 p-2 px-6 pt-2 text-xs rounded-full items-baseline border border-river-900 hover:bg-river-300">Apply now</button>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg border border-gray-300 mt-3 md:w-1/3">
+            <img src="/src/assets/icon2.svg" alt="personal loan">
+            <h3 class="text-3xl text-center">
+              Business loan
+            </h3>
+            <p class="text-center text-gray-500">
+              Business Loan Services provide financial assistance to business for various purposes.
+            </p>
+            <button class="text-river-900 p-2 px-6 pt-2 text-xs rounded-full items-baseline border border-river-900 hover:bg-river-300">Apply now</button>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg border border-gray-300 mt-3 md:w-1/3">
+            <img src="/src/assets/icon1.svg" alt="personal loan">
+            <h3 class="text-3xl text-center">
+              Auto loan
+            </h3>
+            <p class="text-center text-gray-500">
+              Auto Loan Services provide financing options for individuals businesses to purchase a vahicle.
+            </p>
+            <button class="text-river-900 p-2 px-6 pt-2 text-xs rounded-full items-baseline border border-river-900 hover:bg-river-300">Apply now</button>
+          </div>
+        </div>
+
+        <!-- View more button -->
+        <div class="mt-3 pb-8 md:mt-10">
+          <button class="p-2 px-9 pt-2 text-xs text-slate-100 bg-river-800 rounded-full baseline hover:bg-river-300">View more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process">
+      <!-- Container to the heading and numbered list-->
+      <div class="max-w-4xl px-5 mx-auto pt-6 mt-32 text-center">
+        <!-- Heading -->
+        <h2 class="text-3xl font-semibold text-center">
+          How we work?
+        </h2>
+        <p class="text-center mt-4 mb-10" >
+          This is a process, how you can get loan for your self.
+        </p>
+
+        <!-- Process 1-->
+        <div class="flex flex-col md:flex-row md:space-x-6 justify-center">
+
+          <!-- Image -->
+          <div class=" hidden w-1/2 md:block">
+            <img src="/src/assets/images/application.png" alt="hero">
+          </div>
+
+          <!-- Process details-->
+          <div class="flex flex-col mt-5">
+            <!-- Heading -->
+            <div class="rounded-l-full bg-river-50 md:bg-transparent">
+              <!-- Big num -->
+              <div class="hidden text-7xl font-extrabold text-gray-300 relative right-60 top-12 -z-30 md:block">
+                01
+              </div>
+
+              <div class="flex items-center space-x-2">
+                <div class="px-4 py-2 text-slate-50 rounded-full bg-river-800 md:hidden">
+                  01
+                </div> 
+                <h3 class="text-lg  font-bold md:mb-4 md:hidden">
+                  Application
+                </h3>
+              </div>
+            </div>
+
+            <div class="max-w-lg">
+              <h3 class="hidden mb-4 text-3xl text-left font-semibold md:block">
+                Application
+              </h3>
+
+              <p class="text-river-900 text-left ml-14 md:m-0">
+                Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eum quam saepe accusamus unde. Laboriosam alias officia error odio a natus. Expedita, assumenda velit consectetur non magnam sed dolor distinctio voluptas!
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Process 2-->
+        <div class="flex flex-col md:flex-row-reverse md:space-x-6 justify-center">
+
+          <!-- Image -->
+          <div class=" hidden w-1/2 md:block">
+            <img src="/src/assets/images/verification.png" alt="hero">
+          </div>
+
+          <!-- Process details-->
+          <div class="flex flex-col mt-5">
+            <!-- Heading -->
+            <div class="rounded-l-full bg-river-50 md:bg-transparent">
+              <!-- Big num -->
+              <div class="hidden text-7xl font-extrabold text-gray-300 relative right-60 top-12 -z-30 md:block">
+                02
+              </div>
+
+              <div class="flex items-center space-x-2">
+                <div class="px-4 py-2 text-slate-50 rounded-full bg-river-800 md:hidden">
+                  02
+                </div> 
+                <h3 class="text-lg  font-bold md:mb-4 md:hidden">
+                  Documentation and Verification
+                </h3>
+              </div>
+            </div>
+
+            <div class="max-w-lg">
+              <h3 class="hidden mb-4 text-3xl text-left font-semibold md:block">
+                Documentation and Verification
+              </h3>
+
+              <p class="text-river-900 text-left ml-14 md:m-0">
+                Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eum quam saepe accusamus unde. Laboriosam alias officia error odio a natus. Expedita, assumenda velit consectetur non magnam sed dolor distinctio voluptas!
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Process 3-->
+        <div class="flex flex-col md:flex-row md:space-x-6 justify-center">
+
+          <!-- Image -->
+          <div class=" hidden w-1/2 md:block">
+            <img src="/src/assets/images/card.png" alt="hero">
+          </div>
+
+          <!-- Process details-->
+          <div class="flex flex-col mt-5">
+            <!-- Heading -->
+            <div class="rounded-l-full bg-river-50 md:bg-transparent">
+              <!-- Big num -->
+              <div class="hidden text-7xl font-extrabold text-gray-300 relative right-60 top-12 -z-30 md:block">
+                03
+              </div>
+
+              <div class="flex items-center space-x-2">
+                <div class="px-4 py-2 text-slate-50 rounded-full bg-river-800 md:hidden">
+                  03
+                </div> 
+                <h3 class="text-lg  font-bold md:mb-4 md:hidden">
+                  Credit Assesment
+                </h3>
+              </div>
+            </div>
+
+            <div class="max-w-lg">
+              <h3 class="hidden mb-4 text-3xl text-left font-semibold md:block">
+                Credit Assesment
+              </h3>
+
+              <p class="text-river-900 text-left ml-14 md:m-0">
+                Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eum quam saepe accusamus unde. Laboriosam alias officia error odio a natus. Expedita, assumenda velit consectetur non magnam sed dolor distinctio voluptas!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Process 4-->
+        <div class="flex flex-col md:flex-row-reverse md:space-x-6 justify-center">
+
+          <!-- Image -->
+          <div class=" hidden w-1/2 md:block">
+            <img src="/src/assets/images/approval.png" alt="hero">
+          </div>
+
+          <!-- Process details-->
+          <div class="flex flex-col mt-5">
+            <!-- Heading -->
+            <div class="rounded-l-full bg-river-50 md:bg-transparent">
+              <!-- Big num -->
+              <div class="hidden text-7xl font-extrabold text-gray-300 relative right-60 top-12 -z-30 md:block">
+                04
+              </div>
+
+              <div class="flex items-center space-x-2">
+                <div class="px-4 py-2 text-slate-50 rounded-full bg-river-800 md:hidden">
+                  04
+                </div> 
+                <h3 class="text-lg  font-bold md:mb-4 md:hidden">
+                  Loan Approval
+                </h3>
+              </div>
+            </div>
+
+            <div class="max-w-lg">
+              <h3 class="hidden mb-4 text-3xl text-left font-semibold md:block">
+                Loan Approval
+              </h3>
+
+              <p class="text-river-900 text-left ml-14 md:m-0">
+                Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eum quam saepe accusamus unde. Laboriosam alias officia error odio a natus. Expedita, assumenda velit consectetur non magnam sed dolor distinctio voluptas!
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section id="About-us" class="bg-river-50">
+      <div class="container flex flex-col items-center justify-center px-6 mx-auto  max-w-6xl mt-10  space-y-0 pt-14 md:flex-row md:space-y-0">
+        <!-- Left item -->
+        <div class="flex flex-col space-y-4 mb-10 max-w-lg md:w-1/2">
+          <!-- Heading -->
+          <h3 class="text-4xl text-le text-river-800">
+            About us
+          </h3>
+    
+          <img src="/src/assets/images/about-us.png" alt="About-us class ">
+    
+          <p class="text-left">
+            QuickFunds- Your trusted financial partner for loans. Quick approvals, competitive rates, and personalized solutions to meet your unique needs. Empowering you to achieve your financial goals. Apply online today!
+          </p>
+        </div>
+    
+        <!-- Form -->
+        <form class="rounded-2xl p-6 bg-white max-w-3xl md:ml-32">
+          <p class="text-left pt-3">Your Name</p>
+          <input type="text" class="px-24 py-2 rounded-full border border-river-800">
+    
+          <p class="text-left pt-3">Phone Number</p>
+          <input type="text" class="px-24 py-2 rounded-full border border-river-800">
+    
+          <p class="text-left pt-3">Email address</p>
+          <input type="text" class="px-24 py-2 rounded-full border border-river-800">
+    
+          <div class="mt-7 pb-3 justify-center text-center">
+            <button class="p-2 px-9 pt-2 text-sm text-slate-100 bg-river-800 rounded-full baseline hover:bg-river-300">SEND</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="bg-river-950">
+    <div class="container flex flex-col  items-center px-6 py-14 mx-auto max-w-6xl space-y-0 md:flex-row md:space-y-0">
+      <!-- Left item -->
+      <div class="flex flex-col space-y-4 mb-10 max-w-lg md:w-1/2">
+        <div class="">
+          <a href="#" class="text-xl font-semibold text-white">Romar<span class="text-green-400">Marcos</span></a>
+        </div>
+        <p class="text-left text-white">
+          Our mission is to empower individuals and business by providing them with the financial resources they need to achieve their goals.
+        </p>
+
+        <div class="flex space-x-2">
+          <a href="#">
+            <i class="ph-fill ph-whatsapp-logo" style="color: white"></i>
+          </a>
+          <a href="#">
+            <i class="ph-fill ph-whatsapp-logo" style="color: white"></i>
+          </a>
+          <a href="#">
+            <i class="ph-fill ph-linkedin-logo" style="color: white"></i>
+          </a>
+          <a href="#">
+            <i class="ph-fill ph-instagram-logo" style="color: white"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Item -->
+      <div class="flex  md:w-1/2 space-x-8 p-6 justify-center">
+        <div class="flex flex-col space-y-4">
+          <h4 class="text-white text-left text-lg font-semibold">
+            <span class="underline underline-offset-4">OUR S</span>ERVICES
+          </h4>
+          <a href="#" class="text-white text-base text-left">
+            Personal Loan
+          </a>
+          <a href="#" class="text-white text-base text-left">
+            Business loan
+          </a>
+          <a href="#" class="text-white text-base text-left">
+            Education loan
+          </a>
+          <a href="#" class="text-white text-base text-left">
+            Auto loan
+          </a>
+        </div>
+
+        <div class="flex flex-col space-y-4 md:w-1/2">
+          <h4 class="text-white text-left text-lg font-semibold">
+           <span class="underline underline-offset-4">CON</span>TACT US
+          </h4>
+          <div class="flex">
+            <i class="ph-fill ph-phone-call" style="color: white"></i>
+            <p class="-mt-1 pl-3 text-white">+639123456789</p>
+          </div>
+          <div class="flex">
+            <i class="ph-fill ph-envelope" style="color: white"></i>
+            <p class="-mt-1 pl-3 text-white">xyzfh5@gmail.com</p>
+          </div>
+          <div class="flex">
+            <i class="ph-fill ph-map-pin" style="color: white"></i>
+            <p class="-mt-1 pl-3 text-white">+House Stark, Winterfell, Direwolf Lane, Winterfell, The North, Westeros, WTR 1NF</p>
+          </div>
+
+
+        </div>
+
+        
+
+      </div>
+      
+    </div>
+  </footer>
+</body>
+</html>
